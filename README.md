@@ -4,9 +4,9 @@
 
 DeepSeek Harness 的前台 token 计量插件：输入框下方常驻一条计量条，点开是完整的消耗面板。
 
-![收起态](docs/收起态.png)
+![收起态](https://raw.githubusercontent.com/Robortshen/dsh-token-radar/main/docs/%E6%94%B6%E8%B5%B7%E6%80%81.png)
 
-![展开态](docs/展开态.png)
+![展开态](https://raw.githubusercontent.com/Robortshen/dsh-token-radar/main/docs/%E5%B1%95%E5%BC%80%E6%80%81.png)
 
 ## 它显示什么
 

@@ -6,9 +6,9 @@ A per-call token meter for [DeepSeek Harness](https://github.com/deepseek-ai/dee
 A colour-coded pill sits below the composer and expands into a dashboard that shows what every
 single model call actually cost — not just daily or per-model aggregates.
 
-![collapsed](docs/收起态.png)
+![collapsed](https://raw.githubusercontent.com/Robortshen/dsh-token-radar/main/docs/%E6%94%B6%E8%B5%B7%E6%80%81.png)
 
-![expanded](docs/展开态.png)
+![expanded](https://raw.githubusercontent.com/Robortshen/dsh-token-radar/main/docs/%E5%B1%95%E5%BC%80%E6%80%81.png)
 
 ## What it shows
 
