@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Token meter">
+  <defs>
+    <linearGradient id="tm-face" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1f6fb2"/>
+      <stop offset="1" stop-color="#12496f"/>
+    </linearGradient>
+  </defs>
+  <rect x="3" y="3" width="58" height="58" rx="15" fill="url(#tm-face)"/>
+  <g fill="none" stroke="#bfe3ff" stroke-linecap="round" opacity="0.55">
+    <path d="M13 42a19 19 0 0 1 38 0" stroke-width="2.4"/>
+    <path d="M20 42a12 12 0 0 1 24 0" stroke-width="2.4" opacity="0.7"/>
+  </g>
+  <g fill="#eaf6ff">
+    <rect x="20" y="39" width="6" height="9" rx="2"/>
+    <rect x="29" y="32" width="6" height="16" rx="2"/>
+    <rect x="38" y="26" width="6" height="22" rx="2" fill="#7ee2b8"/>
+  </g>
+  <circle cx="32" cy="42" r="2.6" fill="#0d3450" stroke="#bfe3ff" stroke-width="1.6"/>
+</svg>

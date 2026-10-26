@@ -1,0 +1,80 @@
+{
+  "name": "dsh-token-radar",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Per-call token meter for DeepSeek Harness: a colour-coded pill below the composer plus a dashboard of each model call, sub-agents, tool overhead and daily totals, read straight from local session logs. · 逐次调用的 token 计量：输入框下方的彩色胶囊 + 逐调用/子代理/工具开销面板，直接读本机会话日志。",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "README.en.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  },
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "token",
+    "usage",
+    "billing",
+    "cache",
+    "observability"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Robert Shen"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robortshen/dsh-token-radar.git"
+  },
+  "homepage": "https://github.com/Robortshen/dsh-token-radar#readme",
+  "bugs": {
+    "url": "https://github.com/Robortshen/dsh-token-radar/issues"
+  },
+  "engines": {
+    "node": ">=20",
+    "dsh": ">=0.1.0-rc.5"
+  },
+  "dshhub": {
+    "schemaVersion": 1,
+    "displayName": "Token 雷达 / Token Radar",
+    "summary": "逐次调用的 token 计量：输入框下方彩色胶囊 + 展开面板（每次调用的双图、子代理树、工具开销归因、按模型/按天），数据直接读 ~/.dsh/sessions 的日志并做去重，零依赖、零网络请求。",
+    "categories": [
+      "费用",
+      "Web UI",
+      "观测"
+    ],
+    "surfaces": [
+      "host",
+      "web"
+    ],
+    "compatibility": {
+      "dsh": ">=0.1.0-rc.5",
+      "node": ">=20"
+    }
+  }
+}

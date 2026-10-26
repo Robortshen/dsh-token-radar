@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Token Meter",
+    "description": "Per-call token usage under the composer: fresh input, cache hits, output and estimated cost for this session, plus sub-agents, tools and daily totals."
+  }
+}
